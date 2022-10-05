@@ -2,7 +2,7 @@ package Aula01;
 
 import java.util.Date;
 
-public class Fachada extends Service {
+public class Fachada {
     Service service;
     public Fachada(){
          service = new Service();
